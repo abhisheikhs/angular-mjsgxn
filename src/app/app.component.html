@@ -1,0 +1,296 @@
+
+<main>
+	<header>
+	  <nav class="navbar navbar-expand-sm navbar-light">
+	  <div class="container">
+	
+		<!-- Brand -->
+		<a class="navbar-brand text-danger font-weight-bold" href="index.html"><img class="d-inline" src="assets/img/logo.jpg" class="logo" title="Samreen - Property Management" /></a>
+	
+		<span class="text-danger initialism font-weight-bold d-inline-block d-sm-none">Samreen &ndash; Property Management</span>
+	
+		<!-- Toggler/Collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+	  
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item"><a class="nav-link mx-2 text-dark" href="index.html" title="Welcome to Homepage - Samreen Property Management">Home</a></li>
+			<li class="nav-item"><a class="nav-link mx-2 text-dark" href="buy.html" title="Buy office space, residential, warehouse">Buy</a></li>
+			<li class="nav-item"><a class="nav-link mx-2 text-dark" href="rent.html" title="Rent villa, hotel appartment, full floor">Rent</a></li>
+			<li class="nav-item"><a class="nav-link mx-2 text-dark" href="commercial.html" title="Browse commercial properties">Commercial</a></li>
+			<li class="nav-item"><a class="nav-link mx-2 text-dark" href="agent.html" title="Find agent">Find agent</a></li>
+		  </ul>
+	  
+		<!--<span class="popover-options">
+		  <a href="#" class="btn btn-sm btn-light" data-container="body" data-toggle="popover" data-content=""><img src="img/bahrain-flag.svg" class="icon-flag" /> <span class="text-info font-weight-bold">Bahrain</span> <i class="material-icons align-bottom text-info">keyboard_arrow_down</i></a>
+		</span>-->
+			
+		  <div class="d-flex order-0 h-100">
+			<ul class="list-unstyled my-auto">
+			  <li class="nav-item dropdown">
+				<a href="#" class="btn btn-sm btn-light nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+				<img src="assets/img/bahrain-flag.svg" class="icon-flag" /> <span class="text-info font-weight-bold">Bahrain</span></a>
+			  </li>
+			  <div class="dropdown-menu">
+				<a class="dropdown-item" href="#">UAE</a>
+				<a class="dropdown-item" href="#">Egypt</a>
+				<a class="dropdown-item" href="#">Qatar</a>
+				<a class="dropdown-item" href="#">Lebanon</a>
+				<a class="dropdown-item" href="#">Morocco</a>
+				<a class="dropdown-item" href="#">Saudi</a>
+			  </div>
+			</ul>
+		  </div>
+	  
+		  <span class="navbar-text">
+			<a href="#" class="btn btn-outline-light border-0"><i class="material-icons text-info align-bottom">favorite_border</i></a>
+			<a href="#" class="btn btn-outline-light text-login py-1 font-weight-bold mx-1">Log in</a>
+		  </span>
+		  
+		</div>
+		
+	  </div><!--container-->
+	  </nav>
+	
+	</header>
+	
+	<section>
+	<article class="jumbotron jumbotron-fluid">
+	  <div class="container bg-opacity-50 py-4 border border-secondary">
+		<form>
+		  <div class="form-row">
+			<div class="form-group col-md-3">
+			  <select id="property_deal_type" name="property_deal_type" class="form-control">
+			  <option value="Buy">Buy</option>
+			  <option value="Rent">Rent</option>
+			  <option value="Commercial Buy">Commercial Buy</option>
+			  <option value="Commercial Rent">Commercial Rent</option>
+			  </select>
+			</div>
+	
+			<div class="form-group col-md-9">
+			  <div class="input-group">
+				<div class="input-group-prepend">
+				  <span class="input-group-text bg-white border-0"><i class="fa fa-search text-muted"></i></span>
+				</div>
+				<input type="text" class="form-control border-0" placeholder="Region or Area or Community" aria-label="Region or Area or Community" aria-describedby="button-addon2" />
+				<div class="input-group-append">
+				  <button class="btn btn-danger" type="button" id="button-addon2">Find</button>
+				</div>
+			  </div>
+			</div>
+		  </div><!-- /row -->
+		  
+		  <div class="form-row">
+			<div class="form-group col-md-3">
+			  <select id="property_type" name="property_type" class="form-control">
+				<option value="Property type">Property type</option>
+				<option value="Office space">Office space</option>
+				<option value="Retail">Retail</option>
+				<option value="Warehouse">Warehouse</option>
+				<option value="Shop">Shop</option>
+				<option value="Villa">Villa</option>
+				<option value="Showroom">Showroom</option>
+				<option value="Hotel Apartment">Hotel Apartment</option>
+				<option value="Full Floor">Full Floor</option>
+				<option value="Half Floor">Half Floor</option>
+				<option value="Whole Building">Whole Building</option>
+				<option value="Land">Land</option>
+				<option value="Bulk Sale Unit">Bulk Sale Unit</option>
+				<option value="Bulk Labor Camp">Bulk Labor Camp</option>
+				<option value="Staff Accommodation">Staff Accommodation</option>
+				<option value="Factory">Factory</option>
+				<option value="Medical Facility">Medical Facility</option>
+			  </select>
+			</div>
+			<div class="form-group col-6 col-md-2">
+			  <select id="property_deal_type" name="property_deal_type" class="form-control">
+				<option value="" selected>Min. price</option>
+				<option value="30,000 BHD">30,000 BHD</option>
+				<option value="40,000 BHD">40,000 BHD</option>
+				<option value="50,000 BHD">50,000 BHD</option>
+				<option value="60,000 BHD">60,000 BHD</option>
+				<option value="70,000 BHD">70,000 BHD</option>
+				<option value="80,000 BHD">80,000 BHD</option>
+				<option value="90,000 BHD">90,000 BHD</option>
+				<option value="100,000 BHD">100,000 BHD</option>
+				<option value="110,000 BHD">110,000 BHD</option>
+				<option value="120,000 BHD">120,000 BHD</option>
+				<option value="130,000 BHD">130,000 BHD</option>
+				<option value="140,000 BHD">140,000 BHD</option>
+			  </select>
+			</div>
+			<div class="form-group col-6 col-md-2">
+			  <select id="property_deal_type" name="property_deal_type" class="form-control">
+				<option value="" selected>Max. price</option>
+				<option value="30,000 BHD">30,000 BHD</option>
+				<option value="40,000 BHD">40,000 BHD</option>
+				<option value="50,000 BHD">50,000 BHD</option>
+				<option value="60,000 BHD">60,000 BHD</option>
+				<option value="70,000 BHD">70,000 BHD</option>
+				<option value="80,000 BHD">80,000 BHD</option>
+				<option value="90,000 BHD">90,000 BHD</option>
+				<option value="100,000 BHD">100,000 BHD</option>
+				<option value="110,000 BHD">110,000 BHD</option>
+				<option value="120,000 BHD">120,000 BHD</option>
+				<option value="130,000 BHD">130,000 BHD</option>
+				<option value="140,000 BHD">140,000 BHD</option>
+				</select>
+			</div>
+			<div class="form-group col-6 col-md-2">
+			  <select id="property_deal_type" name="property_deal_type" class="form-control">
+				<option value="" selected>Min. area</option>
+				<option value="50 sqm">50 sqm</option>
+				<option value="100 sqm">100 sqm</option>
+				<option value="150 sqm">150 sqm</option>
+				<option value="200 sqm">200 sqm</option>
+				<option value="250 sqm">250 sqm</option>
+				<option value="300 sqm">300 sqm</option>
+				<option value="350 sqm">350 sqm</option>
+				<option value="400 sqm">400 sqm</option>
+				<option value="450 sqm">450 sqm</option>
+				<option value="500 sqm">500 sqm</option>
+				<option value="550 sqm">550 sqm</option>
+				<option value="600 sqm">600 sqm</option>
+				</select>
+			</div>
+	
+			<div class="form-group col-6 col-md-2">
+			  <select id="property_deal_type" name="property_deal_type" class="form-control">
+				<option value="" selected>Max. area</option>
+				<option value="50 sqm">50 sqm</option>
+				<option value="100 sqm">100 sqm</option>
+				<option value="150 sqm">150 sqm</option>
+				<option value="200 sqm">200 sqm</option>
+				<option value="250 sqm">250 sqm</option>
+				<option value="300 sqm">300 sqm</option>
+				<option value="350 sqm">350 sqm</option>
+				<option value="400 sqm">400 sqm</option>
+				<option value="450 sqm">450 sqm</option>
+				<option value="500 sqm">500 sqm</option>
+				<option value="550 sqm">550 sqm</option>
+				<option value="600 sqm">600 sqm</option>
+				</select>
+			</div>
+			<div class="form-group col-md-1">
+			  <input type="search" class="form-control" name="" placeholder="keywords">
+			  <p class="text-right"><a href="#" class="btn btn-link text-white text-underline" title="reset">Reset</a></p>
+			</div>
+				</div><!-- /row -->
+		</form>
+	  </div><!-- /container -->
+	</article>
+	</section>
+	
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-12"><h2 class="text-center h5 mb-4">Recommended properties in Bahrain</h2></div>
+		
+		<section class="col-12 col-sm-8">
+		  <div class="row">
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">Exclusive Building for Sale in Busaiteen Area</h5>
+				<p class="card-text featured-properties-type">Whole Building <a href="#" class="card-link featured-properties-price">3,600,000 BHD</a></p>
+				</div>
+			  </article>
+			</div>
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">1 bedroom, good income,huge Pool,GYM,Game</h5>
+				<p class="card-text featured-properties-type">Apartment <a href="#" class="card-link featured-properties-price">54,000 BHD</a></p>
+				</div>
+			  </article>
+			</div>
+		  </div>
+		  
+		  <div class="row">
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">Brand new offices and shops in Curv Mall</h5>
+				<p class="card-text featured-properties-type">Office Space <a href="#" class="card-link featured-properties-price">658 BHD/month</a></p>
+				</div>
+			  </article>
+			</div>
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">Impressive Brand New Apartment with Pool</h5>
+				<p class="card-text featured-properties-type">Apartment <a href="#" class="card-link featured-properties-price">450 BHD/month</a></p>
+				</div>
+			  </article>
+			</div>
+		  </div>
+		  
+		  <div class="row">
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">Beach front beautiful 4BR villa for sale</h5>
+				<p class="card-text featured-properties-type">Villa <a href="#" class="card-link featured-properties-price">400,000 BHD</a></p>
+				</div>
+			  </article>
+			</div>
+			<div class="col-6 col-sm-6">
+			  <article class="card mb-4">
+				<img class="card-img-top" src="https://via.placeholder.com/300x250?text=Featured Image" alt="Featured Image">
+				<div class="card-body">
+				<h5 class="card-title featured-properties-title">Fully Equipped &amp; Established Restaurant</h5>
+				<p class="card-text featured-properties-type">Shop <a href="#" class="card-link featured-properties-price">35,000 BHD</a></p>
+				</div>
+			  </article>
+			</div>
+		  </div>
+		</section>
+		
+		<aside class="col-12 col-sm-4">
+		  <div class="row">
+			<div class="col-6 col-sm-12">
+			  <div class="card mb-4">
+				<img class="card-img-top" src="assets/img/ad-banners/ad-banner-01.gif" alt="Advertisement banners">
+			  </div>
+			</div>
+			<div class="col-6 col-sm-12">
+			  <div class="card">
+				<img class="card-img-top" src="assets/img/ad-banners/ad-banner-02.gif" alt="Advertisement banners">
+			  </div>
+			</div>
+		  </div>
+		</aside>
+		
+	  </div>
+	</div><!-- /container -->
+	
+	<footer class="py-3 bg-light">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-sm-12">		
+			<p class="text-center m-0"><a class="text-danger font-weight-bold mr-sm-3">&copy; Samreen &vert; Property Management</a></p>
+			
+			<ul class="list-inline text-center">
+			  <li class="list-inline-item"><a href="#" class="text-reset">&raquo; About us</a></li>
+			  <li class="list-inline-item"><a href="#" class="text-reset">&raquo; Terms &amp; Conditions</a></li>
+			  <li class="list-inline-item"><a href="#" class="text-reset">&raquo; Privacy Policy</a></li>
+			  <li class="list-inline-item"><a href="#" class="text-reset">&raquo; Client Login</a></li>
+			  <li class="list-inline-item"><a href="#" class="text-reset">&raquo; Careers</a></li>
+			</ul>
+			
+		  </div>
+		  <!--<div class="col-sm-3">
+			<a class="" href="javascript:void(0);"><img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="IOS-play-badge" title="Download on App Store" width="100" height="30" /></a>
+			<a class="" href="javascript:void(0);"><img src="img/google-play-badge.png" width="100" height="40" alt="Google-play-badge" title="Get it on Google Play" /></a>
+		  </div>-->
+		</div>
+	  </div>
+	</footer>
+	
+	</main><!-- /main -->
