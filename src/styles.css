@@ -1,1 +1,61 @@
-/* Add application styles & imports to this file! */
+/* You can add global styles to this file, and also import other style files */
+/*
+CUSTOM THEMING
+*/
+	
+	/*-- GLOBAL CLASSES TYPOGRAPHY --*/
+	body{ font-family: 'Open Sans', sans-serif;}
+	.theme-accent-color {color: #ef5e4e }	/*Red*/
+
+/*-- HEADER SECTION --*/
+	.logo { width: 100px;}
+	.navbar-brand img{ width: 64px;}
+	.icon-flag {width:20px;}
+	.text-login {color: #ef5e4e!important;}
+	.btn-outline-light {border:.0625rem solid #e8e1e0;}
+	
+
+/*-- HERO SECTION --*/
+	.jumbotron {
+		background-color:white;
+		background-image:url(assets/img/jumbotron-bg-img1-bh.jpg);
+		background-attachment: scroll;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		}
+	.bg-opacity-50 {
+	  background-color: rgba(65,60,70,.9)!important;}
+	.input-sm-fonts {font-size:.800rem!important;}
+
+/*-- AGENT PAGE --*/
+	.jumbotron-agent {
+		background-color: white;
+		background-image:url(assets/img/jumbotron-bg-img1-bh.jpg);
+		background-attachment: scroll;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		}
+		
+/*-- NAVIGATION SECTION --*/
+	ul.navbar-nav li.nav-item a {font-size:.90rem!important;}
+	ul.navbar-nav li.nav-item a.nav-link:hover {color:#ef5e4e!important;}
+
+	.popover-options a.btn-light {background-color: white!important; border:none;}
+		.popover-options a.btn-light:hover {background-color: #F7F5F5!important; border:none;}
+		.popover-options a.btn-light:hover {background-color: #F7F5F5!important; border:none;}
+
+	  
+/*-- FOOTER SECTION --*/
+	footer a{font-size:.90rem;}
+
+/* Media query */ 
+        @media only screen and (max-width: 576px) {  
+        }
+	.rem-one {font-size: 1.2rem!important;}
+	.btn-corner-round {
+		border-radius: 55px!important;
+		-webkit-border-radius: 55px!important;
+		-moz-border-radius: 55px!important;
+		}
